@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Shakl_chizish
 {
-    internal abstract class Shakl:IShakl
+    internal abstract class Shakl
     {
         
     }

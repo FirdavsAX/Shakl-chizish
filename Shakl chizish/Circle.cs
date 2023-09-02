@@ -16,7 +16,7 @@ namespace Shakl_chizish
         }
         public void Draw()
         {
-            for (int y = -Radius; y <= Radius; y++)
+            for (double y =  -Radius; y <= Radius; y++)
             {
                 for (int x = -Radius; x <= Radius; x++)
                 {

@@ -25,13 +25,14 @@ namespace Shakl_chizish
                 case 1: shape = new Rectangle(10, 8); break;
                 case 2: shape = new Uchburchak(8); break;
                 case 3: shape = new Circle(8); break;
-                default: Main(args);break;
+                default: shape = new Rectangle(12,2);break;
             }
+            Display(shape);
+            Main(args);
 
         }
-        public static void Display(Shakl shape)
+        public static void Display(IShakl shape)
         {
-            Shakl a = new Uchburchak(2);
             shape.Draw();
         }
     }

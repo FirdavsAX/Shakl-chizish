@@ -19,9 +19,9 @@ namespace Shakl_chizish
 
         public void Draw()
         {
-            for (int i = 1; i <= Eni; i++)
+            for (int i = 1; i <= Boyi; i++)
             {
-                for (int j = 1; j <= Boyi; j++)
+                for (int j = 1; j <= Eni; j++)
                 {
                     Console.Write("*");
                 }
