@@ -8,7 +8,6 @@ namespace Shakl_chizish
 {
     internal interface IShakl
     {
-        public void Draw() { Console.WriteLine("Draw"); }
-        
+        void Draw() ;        
     }
 }

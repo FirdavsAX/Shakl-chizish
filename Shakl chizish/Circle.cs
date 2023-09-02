@@ -13,7 +13,7 @@ namespace Shakl_chizish
         public Circle(int radius)
         {
             Radius=radius;
-        }
+        } 
         public void Draw()
         {
             for (double y =  -Radius; y <= Radius; y++)

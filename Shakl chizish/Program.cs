@@ -25,7 +25,7 @@ namespace Shakl_chizish
                 case 1: shape = new Rectangle(10, 8); break;
                 case 2: shape = new Uchburchak(8); break;
                 case 3: shape = new Circle(8); break;
-                default: shape = new Rectangle(12,2);break;
+                default: shape = null ; Main(args) ;break;
             }
             Display(shape);
             Main(args);

@@ -5,8 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Shakl_chizish
-{
-    internal abstract class Shakl
+{ 
+    internal abstract class Shakl 
     {
         
     }

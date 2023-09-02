@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Shakl_chizish
-{
+{ 
     internal class Uchburchak : Shakl, IShakl
     {
         public Uchburchak(int tomonUzunnligi) { TomonUzunligi = tomonUzunnligi; }
